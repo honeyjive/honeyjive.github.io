@@ -1,12 +1,16 @@
 # Site settings
-title: Honey's blog
+title: a dose of honey
 email: son.hyehyun@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is a blog of the things that I am learning at MakerSquare. Part-time September class of the year 2014.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+paginate: 8
+
 twitter_username: hyehoney
 github_username:  honeyjive
 
 # Build settings
 markdown: kramdown
+
