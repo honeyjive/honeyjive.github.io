@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>a dose of honey</title>
+    <description>This is a blog of the things that I am learning at MakerSquare. Part-time September class of the year 2014.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 13 Oct 2014 21:20:14 -0500</pubDate>
+    <lastBuildDate>Mon, 13 Oct 2014 21:20:14 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Hitting a wall</title>
+        <description>&lt;p&gt;The first couple of hours in navigating my jekyll blog and I have already hit a wall.&lt;/p&gt;
+
+&lt;p&gt;From what guides and online tutorials I’ve read so far, most if not all state to not touch the _site folder, but I am unsure on where to even make the slightest CSS changes to customize my blog. Most advice points to the “easy and helpful” Jekyll documentation, but reading some of the tips leave me more confuzzled than before.&lt;/p&gt;
+
+&lt;p&gt;Cue frustration, and more dabbling. To be continued….&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2014/10/11/hitting-a-wall.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/10/11/hitting-a-wall.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>First Real Post</title>
+        <description>&lt;p&gt;This is my post about how I learned to do Jekyll.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Item one&lt;/li&gt;
+  &lt;li&gt;Item two&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 07 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2014/10/07/first-real-post.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/10/07/first-real-post.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 06 Oct 2014 14:53:16 -0500</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2014/10/06/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/10/06/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Intro to Javascript</title>
+        <description>&lt;p&gt;This week and the past week involved the first toe in the pool of what is Javascript.&lt;/p&gt;
+
+&lt;p&gt;First thing is: Javascript does not stand alone. HTML provides the structure to a web page, CSS gives it presentation, and Javascript gives it the interactive flair. In a nutshell, one would have to be well-versed in the fundamentals of HTML and CSS.&lt;/p&gt;
+
+&lt;p&gt;In addition, one of the libraries that we use with Javascript is JQuery. JQuery contains cool and useful plugins to make a site more interactive with the user.&lt;/p&gt;
+
+&lt;p&gt;JS information can be placed between the HTML &lt;em&gt;head&lt;/em&gt; tags, or in just before the closing &lt;em&gt;body&lt;/em&gt; tag.&lt;/p&gt;
+
+&lt;p&gt;It’s all a brief taste of what JS can do, but hopefully I will be able to learn and implement it into my own future projects. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2014/09/24/intro-to-javascript.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/09/24/intro-to-javascript.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>MS and Coding Goals</title>
+        <description>&lt;p&gt;Here are some of my goals that I have set for myself during my time at MakerSquare and as a web-savy human being.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a dynamic website using HTML, CSS, JS, and JQuery&lt;/li&gt;
+  &lt;li&gt;Understand the theory behind markup languages and dynamic computer programming languages such as Javascript&lt;/li&gt;
+  &lt;li&gt;Start creating a portfolio&lt;/li&gt;
+  &lt;li&gt;Actively practice what I learn in class and outside of class.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In continuation from my post in the previous week, I have only the inch-above-surface-level understanding and practice of what goes in building a static and/or dynamic website. Coding always piqued my interest, but life threw distractions and my interest always took a seat in the backburner…until now.&lt;/p&gt;
+
+&lt;p&gt;I’m excited, a little overwhelmed, and optimistic. I also invested in purchasing my very first Mac. (My previous computer met an untimely end two months before classes started.)&lt;/p&gt;
+
+&lt;p&gt;One of the first things that I started to learn how to navigate is the Terminal. At first, it looks frightening: a black screen of death with blinking neon green font like in The Matrix. Many of my reactions is to freeze in fear when I type an incorrect command…or to find that I created a git repo in the incorrect place. However, as I’ve come to quickly find, one is usually going to get it wrong on the first try when learning this kind of discipline. &lt;/p&gt;
+
+&lt;p&gt;And so, more coding shenanigans to come.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2014/09/16/ms-and-coding-goals.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/09/16/ms-and-coding-goals.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>First Week Overview</title>
+        <description>&lt;p&gt;“A journey of a thousand miles begins with a single step.” -Lao-tzu&lt;/p&gt;
+
+&lt;p&gt;While it feels more like a crawl than a first step, my official journey to become front-end developer embarked on the 8th of September.&lt;/p&gt;
+
+&lt;p&gt;The first day of any occasion for me is always filled with hopeful anticipation with anxiety and dread thrown in the mix. Granted, I was probably not the only one. Day 1 consisted of installing multiple programs to my computer. Programs such as Brew, Sublime Text, GitHub, XCode, and etc. I admit that I am still unsure to the function of some of the installed programs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.giphy.com/TUHHY4vIuR89W.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The second day of MakerSquare was a bit more challenging. Here I was introduced to our first project: the blog. Before this class I believed that I at least had some sort of grasp on HTML and CSS. I quickly realized that while one can remember in theory of how things are supposed to work, rarely to they ever on the first try. On top of that, throw in Git Command Line, something I had never encountered before. After a lapse of panicked typing of git commands into Terminal, I was guided back on track by the MS instructors. Praise, hallelujah.&lt;/p&gt;
+
+&lt;p&gt;Key Things to Remember:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google is your friend, it’s okay to look something up.&lt;/li&gt;
+  &lt;li&gt;Review, review, REVIEW!&lt;/li&gt;
+  &lt;li&gt;For a baby beginner using Git Command Line: work + add + commit (and repeat) +  push.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 10 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2014/09/10/first-week-overview.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/09/10/first-week-overview.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lorem Ipsum</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Sep 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2014/09/08/lorem-ipsum.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/09/08/lorem-ipsum.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
