@@ -1,5 +1,9 @@
 /*changing h1 and body font color*/
-a.post-link, .footer-heading {
+a.post-link {
 	color: #ffca2a;
+	font-family: Garamond, Jenson, Caslon;
 }
 
+header, footer {
+	background-color: #ffca2a;
+}
