@@ -2,6 +2,17 @@
 	padding: 150px;
 }
 
+a.site-title {
+	font-size: 50px;
+	width: 100%;
+	float: none;
+}
+
 .title-color {
 	color: #ffca2a;
+}
+
+nav.site-nav {
+	float: none;
+	height: 35px;
 }
